@@ -1,0 +1,18 @@
+.effect {
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px #ccc;
+  width: 300px;
+  padding: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+.effect :hover {
+  transform: scale(1.1);
+}
